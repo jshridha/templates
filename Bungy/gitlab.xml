@@ -80,4 +80,5 @@
   </Data>
   <Banner>https://about.gitlab.com/images/wordmark_inverted_small.png</Banner>
   <Icon>http://blog.piotrows.pl/wp-content/uploads/2014/10/gitlab_logo.png</Icon>
+  <ExtraParams>--link postgresql:postgresql, --link redis:redisio</ExtraParams>
 </Container>
