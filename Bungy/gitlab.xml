@@ -10,10 +10,60 @@
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
-    <Mode>host</Mode>
-    <Publish/>
+    <Mode>bridge</Mode>
+    <Publish>
+	  <Port>
+	    <HostPort>10022</HostPort>
+		<ContainerPort>22</ContainerPort>
+		<Protocol>tcp</Protocol>
+	  </Port>
+	  <Port>
+	    <HostPort>10080</HostPort>
+		<ContainerPort>443</ContainerPort>
+		<Protocol>tcp</Protocol>
+	  </Port>
   </Networking>
-  <Environment/>
+  <Environment>
+    <Variable>
+	  <Name>GITLAB_HOST</Name>
+	  <Value>yourhost.com</Name>
+	</Variable>
+	<Variable>
+	  <Name>GITLAB_EMAIL</Name>
+	  <Value>gitlab@local.host</Value>
+	</Variable>
+	<Variable>
+	  <Name>GITLAB_SSH_PORT</Name>
+	  <Value>10020</Name>
+	</Variable>
+    <Variable>
+	  <Name>GITLAB_PORT</Name>
+	  <Value>10080</Name>
+	</Variable>
+    <Variable>
+	  <Name>GITLAB_HTTPS</Name>
+	  <Value>true</Name>
+	</Variable>
+    <Variable>
+	  <Name>SSL_SELF_SIGNED</Name>
+	  <Value>true</Name>
+	</Variable>
+    <Variable>
+	  <Name>SMTP_USER</Name>
+	  <Value>gitlabEmail@gmail.com</Name>
+	</Variable>
+    <Variable>
+	  <Name>SMTP_PASS</Name>
+	  <Value>gmailpassword</Name>
+	</Variable>
+    <Variable>
+	  <Name>GITLAB_BACKUPS</Name>
+	  <Value>daily</Name>
+	</Variable>
+    <Variable>
+	  <Name>GITLAB_BACKUP_EXPIRY</Name>
+	  <Value>2419200</Name>
+	</Variable>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/gitlab</HostDir>
