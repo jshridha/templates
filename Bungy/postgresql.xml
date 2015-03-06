@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>postgresql</Name>
+  <Description>
+    Postgresql for use with gitlab
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/sameersbn/postgresql/</Registry>
+  <GitHub>https://github.com/sameersbn/docker-postgresql</GitHub>
+  <Repository>sameersbn/gitlab</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data/>
+  <Banner>https://wiki.postgresql.org/images/1/1a/PostgreSQL.Banner.blue.468x60.gif</Banner>
+  <Icon>http://www.iconattitude.com/icons/open_icon_library/apps/png/256/postgresql.png</Icon>
+</Container>
