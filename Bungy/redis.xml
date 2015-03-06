@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>redis</Name>
+  <Description>
+    Postgresql for use with gitlab
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/sameersbn/redis/</Registry>
+  <GitHub>https://github.com/sameersbn/docker-redis</GitHub>
+  <Repository>sameersbn/gitlab</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data/>
+  <Banner>http://www.wptutorialsacademy.com/wp-content/uploads/2014/07/banner-772x250.jpg</Banner>
+  <Icon>https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-128.png</Icon>
+</Container>
