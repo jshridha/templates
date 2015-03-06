@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>gitlab</Name>
+  <Description>
+    Gitlab is a git repository server that can be hosted on your own network so that you can maintain and keep your source code privately.
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/sameersbn/gitlab/</Registry>
+  <GitHub>https://github.com/sameersbn/docker-gitlab</GitHub>
+  <Repository>sameersbn/gitlab</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/gitlab</HostDir>
+      <ContainerDir>/home/git/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/postgresql</HostDir>
+      <ContainerDir>/var/lib/postgresql</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner>https://about.gitlab.com/images/wordmark_inverted_small.png</Banner>
+  <Icon>http://blog.piotrows.pl/wp-content/uploads/2014/10/gitlab_logo.png</Icon>
+</Container>
