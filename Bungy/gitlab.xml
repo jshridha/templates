@@ -65,6 +65,7 @@
 	  <Name>GITLAB_BACKUP_EXPIRY</Name>
 	  <Value>2419200</Value>
 	</Variable>
+  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/gitlab</HostDir>
