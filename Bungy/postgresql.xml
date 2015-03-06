@@ -5,7 +5,7 @@
 </Description>
   <Registry>https://registry.hub.docker.com/u/sameersbn/postgresql/</Registry>
   <GitHub>https://github.com/sameersbn/docker-postgresql</GitHub>
-  <Repository>sameersbn/gitlab</Repository>
+  <Repository>sameersbn/postgresql</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
