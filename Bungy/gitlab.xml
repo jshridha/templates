@@ -26,7 +26,7 @@
   <Environment>
     <Variable>
 	  <Name>GITLAB_HOST</Name>
-	  <Value>yourhost.com</Name>
+	  <Value>yourhost.com</Value>
 	</Variable>
 	<Variable>
 	  <Name>GITLAB_EMAIL</Name>
@@ -34,35 +34,35 @@
 	</Variable>
 	<Variable>
 	  <Name>GITLAB_SSH_PORT</Name>
-	  <Value>10020</Name>
+	  <Value>10020</Value>
 	</Variable>
     <Variable>
 	  <Name>GITLAB_PORT</Name>
-	  <Value>10080</Name>
+	  <Value>10080</Value>
 	</Variable>
     <Variable>
 	  <Name>GITLAB_HTTPS</Name>
-	  <Value>true</Name>
+	  <Value>true</Value>
 	</Variable>
     <Variable>
 	  <Name>SSL_SELF_SIGNED</Name>
-	  <Value>true</Name>
+	  <Value>true</Value>
 	</Variable>
     <Variable>
 	  <Name>SMTP_USER</Name>
-	  <Value>gitlabEmail@gmail.com</Name>
+	  <Value>gitlabEmail@gmail.com</Value>
 	</Variable>
     <Variable>
 	  <Name>SMTP_PASS</Name>
-	  <Value>gmailpassword</Name>
+	  <Value>gmailpassword</Value>
 	</Variable>
     <Variable>
 	  <Name>GITLAB_BACKUPS</Name>
-	  <Value>daily</Name>
+	  <Value>daily</Value>
 	</Variable>
     <Variable>
 	  <Name>GITLAB_BACKUP_EXPIRY</Name>
-	  <Value>2419200</Name>
+	  <Value>2419200</Value>
 	</Variable>
   <Data>
     <Volume>
