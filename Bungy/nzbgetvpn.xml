@@ -6,7 +6,7 @@
   </Description>
   <GitHub>https://github.com/jshridha/docker-nzbgetvpn</GitHub>
   <Registry>https://registry.hub.docker.com/u/jks20/docker-nzbgetvpn/</Registry>
-  <Repository>bungy/nzbgetvpn</Repository>
+  <Repository>jks20/docker-nzbgetvpn</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
