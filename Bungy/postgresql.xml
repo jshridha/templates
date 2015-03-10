@@ -28,7 +28,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/postgresql</HostDir>
+      <HostDir>/mnt/cache/postgresql</HostDir>
       <ContainerDir>/var/lib/postgresql</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
