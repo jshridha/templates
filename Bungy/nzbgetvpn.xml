@@ -4,9 +4,9 @@
   <Description>
     Combination of binhex's nzbget and openvpn.
   </Description>
-  <GitHub>https://github.com/jshridha/docker-nzbgetvpn</GitHub>
   <Registry>https://registry.hub.docker.com/u/jks20/docker-nzbgetvpn/</Registry>
-  <Repository>jks20/docker-nzbgetvpn</Repository>
+  <GitHub>https://github.com/jshridha/docker-nzbgetvpn</GitHub>
+  <Repository>jshridha/docker-nzbgetvpn</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
