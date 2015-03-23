@@ -8,7 +8,7 @@
   <GitHub>https://github.com/jshridha/docker-nzbgetvpn</GitHub>
   <Repository>jshridha/docker-nzbgetvpn</Repository>
   <BindTime>true</BindTime>
-  <Privileged>false</Privileged>
+  <Privileged>true</Privileged>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
