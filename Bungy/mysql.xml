@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>mysql</Name>
+  <Description>
+    Official docker image for mysql database server.
+  </Description>
+  <Registry>https://registry.hub.docker.com/_/mysql/</Registry>
+  <GitHub>https://github.com/docker-library/mysql/tree/master/5.7/</GitHub>
+  <Repository>mysql</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3306</HostPort>
+        <ContainerPort>3306</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+	  <Name>MYSQL_ROOT_PASSWORD</Name>
+	  <Value>root_password</Value>
+	</Variable>
+	<Variable>
+	  <Name>MYSQL_DATABASE</Name>
+	  <Value>owncloud</Value>
+	</Variable>
+	<Variable>
+	  <Name>MYSQL_USER</Name>
+	  <Value>mysql_user</Value>
+	</Variable>
+    <Variable>
+	  <Name>MYSQL_PASSWORD</Name>
+	  <Value>mysql_password</Value>
+	</Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/mysql</HostDir>
+      <ContainerDir>/var/lib/mysql</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner>https://raw.githubusercontent.com/docker-library/docs/master/mysql/logo.png</Banner>
+  <Icon>https://raw.githubusercontent.com/docker-library/docs/master/mysql/logo.png</Icon>
+</Container>
