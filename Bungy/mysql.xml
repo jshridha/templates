@@ -4,6 +4,11 @@
   <Description>
     Official docker image for mysql database server.
   </Description>
+  <Overview>
+    Official docker image for mysql database server.
+	Set the database name, root password, mysql user name, and mysql user password.
+  </Overview>
+  <Support>http://lime-technology.com/forum/index.php?topic=38930.0</Support>
   <Registry>https://registry.hub.docker.com/_/mysql/</Registry>
   <GitHub>https://github.com/docker-library/mysql/tree/master/5.7/</GitHub>
   <Repository>mysql</Repository>

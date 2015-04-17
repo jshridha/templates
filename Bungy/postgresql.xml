@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>postgresql</Name>
-  <Description>Postgresql for use with gitlab&#13;
-</Description>
+  <Description>
+  Postgresql for use with gitlab
+  </Description>
   <Registry>https://registry.hub.docker.com/u/sameersbn/postgresql/</Registry>
   <GitHub>https://github.com/sameersbn/docker-postgresql</GitHub>
   <Repository>sameersbn/postgresql</Repository>
