@@ -2,7 +2,7 @@
 <Container>
   <Name>redis</Name>
   <Description>
-    Postgresql for use with gitlab
+    Redis for use with gitlab
   </Description>
   <Registry>https://registry.hub.docker.com/u/sameersbn/redis/</Registry>
   <GitHub>https://github.com/sameersbn/docker-redis</GitHub>
