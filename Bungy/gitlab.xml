@@ -7,6 +7,7 @@
   <Overview>
     Gitlab is a git repository server that can be hosted on your own network so that you can maintain and keep your source code privately.
     This docker has the ability to enable https, send emails using gmail, and perform nightly backups.
+  </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=38930.0</Support>
   <Registry>https://registry.hub.docker.com/u/sameersbn/gitlab/</Registry>
   <GitHub>https://github.com/sameersbn/docker-gitlab</GitHub>
