@@ -24,7 +24,13 @@
     </Publish>
   </Networking>
   <Environment/>
-  <Data/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/homegenie</HostDir>
+      <ContainerDir>/usr/local/bin/homegenie</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
   <Banner>http://a.fsdn.com/allura/p/homegenie/icon</Banner>
   <Icon>http://a.fsdn.com/allura/p/homegenie/icon</Icon>
 </Container>
