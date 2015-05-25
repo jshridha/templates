@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>False</Beta>
+  <Category>Network:Management Productivity: Tools:</Category>
   <Name>mysql</Name>
   <Description>
     Official docker image for mysql database server.
