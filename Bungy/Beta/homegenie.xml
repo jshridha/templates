@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
   <Name>homegenie</Name>
   <Description>
     Homegenie open soure home automation code.
