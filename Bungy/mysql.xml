@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
   <Name>mysql</Name>
   <Description>
     Official docker image for mysql database server.
