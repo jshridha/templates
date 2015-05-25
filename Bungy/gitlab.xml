@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
   <Category>Cloud: Network:Web Productivity: Tools:</Category>
   <Name>gitlab</Name>
   <Description>
