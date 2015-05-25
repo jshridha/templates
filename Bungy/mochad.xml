@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
   <Name>mochad</Name>
   <Description>
     Mochad is a TCP gateway to access the CM15a and CM19 X-10 interfaces
