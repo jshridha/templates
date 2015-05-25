@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>False</Beta>
+  <Category>Tools:</Category>
   <Name>redis</Name>
   <Description>
     Redis for use with gitlab
