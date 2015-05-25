@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
   <Name>openhab</Name>
   <Description>
     openHAB is an open source home automation solution capable of interfacing with many different controllers and "Internet of Things" devices
