@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>False</Beta>
+  <Category>Downloaders:</Category>
   <Name>nzbgetvpn</Name>
   <Description>
     Combination of binhex's nzbget and openvpn.
