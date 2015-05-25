@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Category>Cloud: Network:Web Productivity: Tools:</Category>
   <Name>gitlab</Name>
   <Description>
     Gitlab is a git repository server that can be hosted on your own network so that you can maintain and keep your source code privately.
