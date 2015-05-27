@@ -51,7 +51,7 @@
     <Volume>
       <HostDir>/mnt/cache/appdata/owncloud/certs</HostDir>
       <ContainerDir>/https</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8000]/</WebUI>
