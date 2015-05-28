@@ -41,4 +41,5 @@
       <Mode>ro</Mode>
     </Volume>
   </Data>
+  <Icon>https://raw.githubusercontent.com/jshridha/templates/master/Bungy/Icons/openhab-logo-square.png</Icon>
 </Container>
