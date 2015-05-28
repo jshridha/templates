@@ -85,6 +85,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+  <WebUI>http://[IP]:[PORT:10080]/</WebUI>
   <Banner>https://about.gitlab.com/images/wordmark_inverted_small.png</Banner>
   <Icon>http://blog.piotrows.pl/wp-content/uploads/2014/10/gitlab_logo.png</Icon>
   <ExtraParams>--link postgresql:postgresql --link redis:redisio</ExtraParams>
