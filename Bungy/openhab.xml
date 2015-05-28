@@ -42,4 +42,5 @@
     </Volume>
   </Data>
   <Icon>https://raw.githubusercontent.com/jshridha/templates/master/Bungy/Icons/openhab-logo-square.png</Icon>
+  <Banner>https://raw.githubusercontent.com/jshridha/templates/master/Bungy/Icons/openhab_banner.png</Banner>
 </Container>
