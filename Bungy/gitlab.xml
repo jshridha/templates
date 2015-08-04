@@ -79,11 +79,6 @@
       <ContainerDir>/home/git/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/postgresql</HostDir>
-      <ContainerDir>/var/lib/postgresql</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:10080]/</WebUI>
   <Banner>https://about.gitlab.com/images/wordmark_inverted_small.png</Banner>
