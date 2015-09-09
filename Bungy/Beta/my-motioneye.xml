@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>True</Beta>
+  <Name>motioneye</Name>
+  <Description>Motion security camera software with motioneye as the frontend UI[br][br]jshridha/motioneye converted by Community Applications.[br][br][span style='color: #E80000;']Double check the entries via the Advanced View button.[br][br]You will need to manually add any required environment variables.[/span]&#13;
+</Description>
+  <Registry>https://hub.docker.com/r/jshridha/motioneye/~/dockerfile/</Registry>
+  <Repository>jshridha/motioneye:experimental</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8081</HostPort>
+        <ContainerPort>8081</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8765</HostPort>
+        <ContainerPort>8765</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/motion/data</HostDir>
+      <ContainerDir>/var/lib/motion</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/motion/config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/motion/motioneye</HostDir>
+      <ContainerDir>/home/nobody/motioneye</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:8765]</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/ccrisan/motioneye/master/motioneye/static/img/motioneye-icon.svg</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
