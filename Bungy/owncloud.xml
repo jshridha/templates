@@ -13,6 +13,9 @@
     [b]/usr/share/webapps/owncloud/config[/b] : this path is where ownCloud config is stored.[br][br]
     [b]/https[/b] : this path is where ownCloud https ssl certificates are stored.[br][br]
     [b] This docker works well well with an apache reverse proxy for access to the outside world[/b][br]
+	
+	Connect to http://[IP]:8000/owncloud if https is [b]not[/b] enabled[br]
+	Connect to https://[IP]:8443/owncloud if https [b]is[/b] enabled[br]
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=38930.0</Support>
   <Registry>https://registry.hub.docker.com/u/l3iggs/owncloud/</Registry>
@@ -54,7 +57,7 @@
       <Mode>ro</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8000]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8000]/owncloud</WebUI>
   <Banner>http://i.imgur.com/eUAGaPA.png</Banner>
   <Icon>http://i.imgur.com/EX4qL2V.png</Icon>
   <ExtraParams></ExtraParams>
