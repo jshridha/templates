@@ -26,6 +26,11 @@
       </Port>
       <Port>
         <HostPort>10080</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>10443</HostPort>
         <ContainerPort>443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -33,45 +38,45 @@
   </Networking>
   <Environment>
     <Variable>
-	  <Name>GITLAB_HOST</Name>
-	  <Value>yourhost.com</Value>
-	</Variable>
-	<Variable>
-	  <Name>GITLAB_EMAIL</Name>
-	  <Value>gitlab@local.host</Value>
-	</Variable>
-	<Variable>
-	  <Name>GITLAB_SSH_PORT</Name>
-	  <Value>10020</Value>
-	</Variable>
+      <Name>GITLAB_HOST</Name>
+      <Value>localhost</Value>
+    </Variable>
     <Variable>
-	  <Name>GITLAB_PORT</Name>
-	  <Value>10080</Value>
-	</Variable>
+      <Name>GITLAB_EMAIL</Name>
+      <Value>example@example.com</Value>
+    </Variable>
     <Variable>
-	  <Name>GITLAB_HTTPS</Name>
-	  <Value>true</Value>
-	</Variable>
+      <Name>GITLAB_SSH_PORT</Name>
+      <Value>10020</Value>
+    </Variable>
     <Variable>
-	  <Name>SSL_SELF_SIGNED</Name>
-	  <Value>true</Value>
-	</Variable>
+      <Name>GITLAB_PORT</Name>
+      <Value>10080</Value>
+    </Variable>
     <Variable>
-	  <Name>SMTP_USER</Name>
-	  <Value>gitlabEmail@gmail.com</Value>
-	</Variable>
+      <Name>GITLAB_HTTPS</Name>
+      <Value>false</Value>
+    </Variable>
     <Variable>
-	  <Name>SMTP_PASS</Name>
-	  <Value>gmailpassword</Value>
-	</Variable>
+      <Name>SSL_SELF_SIGNED</Name>
+      <Value>false</Value>
+    </Variable>
     <Variable>
-	  <Name>GITLAB_BACKUPS</Name>
-	  <Value>daily</Value>
-	</Variable>
+      <Name>SMTP_USER</Name>
+      <Value>gitlabEmail@gmail.com</Value>
+    </Variable>
     <Variable>
-	  <Name>GITLAB_BACKUP_EXPIRY</Name>
-	  <Value>2419200</Value>
-	</Variable>
+      <Name>SMTP_PASS</Name>
+      <Value>gmailpassword</Value>
+    </Variable>
+    <Variable>
+      <Name>GITLAB_BACKUPS</Name>
+      <Value>daily</Value>
+    </Variable>
+    <Variable>
+      <Name>GITLAB_BACKUP_EXPIRY</Name>
+      <Value>2419200</Value>
+    </Variable>
   </Environment>
   <Data>
     <Volume>
