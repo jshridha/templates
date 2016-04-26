@@ -12,7 +12,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=38930.0</Support>
   <Registry>https://registry.hub.docker.com/u/jshridha/docker-homegenie/</Registry>
   <GitHub>https://github.com/jshridha/docker-homegenie</GitHub>
-  <Repository>jshridha/docker-homegenie</Repository>
+  <Repository>jshridha/homegenie</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
