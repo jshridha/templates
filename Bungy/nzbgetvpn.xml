@@ -28,7 +28,7 @@
   </Networking>
   <Environment>
     <Variable>
-          <Name>VPN_ENABED</Name>
+          <Name>VPN_ENABLED</Name>
           <Value>yes</Value>
         </Variable>
     <Variable>
@@ -45,7 +45,7 @@
 	</Variable>
 	<Variable>
 	  <Name>VPN_REMOTE</Name>
-	  <Value>us-east.privateinternetaccess.com</Value>
+	  <Value>nl.privateinternetaccess.com</Value>
 	</Variable>
     <Variable>
 	  <Name>VPN_PORT</Name>
@@ -55,6 +55,10 @@
 	  <Name>VPN_PROV</Name>
 	  <Value>pia</Value>
 	</Variable>
+    <Variable>
+          <Name>VPN_PROTOCOL</Name>
+          <Value>udp</Value>
+        </Variable>
     <Variable>
           <Name>LAN_NETWORK</Name>
           <Value>192.168.1.0/24</Value>
