@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Beta>True</Beta>
   <Name>motioneye</Name>
   <Description>Motion security camera software with motioneye as the frontend UI[br][br]jshridha/motioneye converted by Community Applications.[br][br][span style='color: #E80000;']Double check the entries via the Advanced View button.[br][br]You will need to manually add any required environment variables.[/span]&#13;
 </Description>
@@ -13,8 +12,8 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8081</HostPort>
-        <ContainerPort>8081</ContainerPort>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
