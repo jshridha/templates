@@ -25,11 +25,6 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/motion/data</HostDir>
-      <ContainerDir>/var/lib/motion</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
       <HostDir>/mnt/cache/appdata/motion/config</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
