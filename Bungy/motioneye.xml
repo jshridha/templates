@@ -4,7 +4,7 @@
   <Description>Motion security camera software with motioneye as the frontend UI[br][br]jshridha/motioneye converted by Community Applications.[br][br][span style='color: #E80000;']Double check the entries via the Advanced View button.[br][br]You will need to manually add any required environment variables.[/span]&#13;
 </Description>
   <Registry>https://hub.docker.com/r/jshridha/motioneye/~/dockerfile/</Registry>
-  <Repository>jshridha/motioneye:experimental</Repository>
+  <Repository>jshridha/motioneye:latest</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
