@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>watchtower</Name>
+  <Category>Productivity: Tools:</Category>
   <Description>Automatically update running Docker containers &#13;
 </Description>
   <Registry>https://hub.docker.com/r/centurylink/watchtower/~/dockerfile/</Registry>
