@@ -45,7 +45,7 @@
 	</Variable>
 	<Variable>
 	  <Name>VPN_REMOTE</Name>
-	  <Value>nl.privateinternetaccess.com</Value>
+	  <Value>www.privateinternetaccess.com</Value>
 	</Variable>
     <Variable>
 	  <Name>VPN_PORT</Name>
